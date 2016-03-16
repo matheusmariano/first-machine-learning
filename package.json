@@ -1,0 +1,17 @@
+{
+  "name": "jasmine",
+  "version": "0.0.1",
+  "description": "Trying Jasmine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jasmine"
+  ],
+  "author": "Matheus Mariano",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.6.1"
+  }
+}
