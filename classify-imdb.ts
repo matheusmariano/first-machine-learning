@@ -7,7 +7,7 @@ interface Data { text: string, category: string }
 
 var classifier = new Classifier()
 
-fs.readFile('datasets/imdb.json', function (error, data) {
+fs.readFile('datasets/light-imdb.json', function (error, data) {
     var dataset: Data[] = JSON.parse(data.toString())
     
     dataset.forEach(function (data) {
